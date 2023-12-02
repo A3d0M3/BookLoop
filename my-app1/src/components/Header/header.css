@@ -1,0 +1,95 @@
+.header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin: 0px 40px;
+}
+
+.logo {
+   background: #f5f5f5;
+   width: 146px;
+   height: 185px;
+   margin-left: 87px;
+ }
+.search {
+   display: flex;
+   align-items: center;
+}
+
+.filter {
+   margin-left: -75px;
+   margin-right: 46px;
+   text-decoration: none;
+}
+
+.input {
+   position: relative;
+}
+
+.text_input {
+   padding-left: 40px;
+   background-image: url(./img/loop.png);
+   background-repeat: no-repeat;
+   background-position: 6px;
+   width: 661px;
+   height: 43px;
+   border-radius: 15px;
+   border: none;
+   color: #000;
+   font-family: Inter;
+   font-size: 18px;
+   font-weight: 600;
+   padding-right: 150px;
+   box-sizing: border-box;
+}
+
+.submit {
+   width: 142px;
+   height: 43px;
+   border-radius: 15px;
+   border: none;
+   position: absolute;
+   right: 0px;
+   top: 0px;
+   bottom: 0px;
+   z-index: 4;
+   background: #8B4513;
+   color: #FFF;
+   font-family: Inter;
+   font-size: 18px;
+   font-weight: 600;
+   margin-left: 100px;
+}
+
+.login_button {
+   display: flex;
+   align-items: center;
+   text-decoration: none;
+   color: black;
+}
+
+.login img {
+   margin-right: 13px;
+}
+
+.login span {
+   font-family: Inter;
+   font-size: 18px;
+   font-weight: 600;
+}
+
+.add_ad_but{
+   width: 240px;
+   height: 43px;
+   border-radius: 15px;
+   background: #8B4513;
+   border: none;
+   color: #FFF;
+   text-align: center;
+   font-family: Inter;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 600;
+   margin-top: 125px;
+   margin-left: -450px;
+}
