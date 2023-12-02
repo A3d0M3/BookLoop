@@ -79,32 +79,32 @@ function Main() {
          <div className='hero3'>
             <div class="book_rec">
                <div class="book_place1">
-                  <img src={book1}/>
+                  <img src={book1} alt='photo of book'/>
                </div>
 
                <div class="book_place2">
-                  <img src={book2}/>
+                  <img src={book2} alt='photo of book'/>
                </div>
 
                <div class="book_place3">
-                  <img src={book3}/>
+                  <img src={book3} alt='photo of book'/>
                </div>
 
                <div class="book_place4">
-               <img src={book4}/>
+               <img src={book4} alt='photo of book'/>
                </div>
             
                <div class="book_place5">
-               <img src={book5}/> 
+               <img src={book5} alt='photo of book'/> 
                </div>
 
                <div class="book_place6">
-                  <img src={book6}/>
+                  <img src={book6} alt='photo of book'/>
                </div>
             </div>
 
             <div class="advert_place">
-               <img src={advert} alt='pol'/>
+               <img src={advert} alt='addvert'/>
             </div>
          </div>
       </div>

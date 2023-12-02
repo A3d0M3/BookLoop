@@ -167,7 +167,7 @@
    margin-right: 10px;
 }
 
-input[type="submit" i] {
+.SignIn{
    background-color: #BC8F8F;
    color: #FFF;
    font-family: Inter;
@@ -188,3 +188,7 @@ input[type="submit" i]:hover {
    font-weight: 600;
    margin-bottom: 20px;
 }
+
+
+/* registr header */
+

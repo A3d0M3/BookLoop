@@ -1,10 +1,11 @@
-import Header from "../components/Header/header";
-
+import HeaderR from "../components/Header/headerR.jsx";
+import Registrbody from "../components/Registration/reg.jsx"
 
 function Registr(){
     return(
         <>
-        <Header/>
+        <HeaderR/>
+        <Registrbody/>
         </>
     )
 }
