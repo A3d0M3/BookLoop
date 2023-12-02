@@ -24,6 +24,9 @@ The site is built using the following technologies:
 - Database: MySQL
 
 ## How to install and run the project locally
+### Clone
+
+- Clone this repo to your local machine using `https://github.com/A3d0M3/BookLoop.git`
 
 ## Have questions? 
 If you would like to contribute to the development of this project, please create a pull request and we will consider it. Ideas and feedback are also welcome!
