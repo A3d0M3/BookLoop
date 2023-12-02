@@ -175,6 +175,11 @@ input[type="submit" i] {
    font-weight: 600;
 }
 
+input[type="submit" i]:hover {
+   background-color: #8B4513;
+   cursor: pointer;
+}
+
 .no_acc span{
    text-decoration: none;
    color: #000;
