@@ -1,9 +1,18 @@
 import './header.css'
+
 import logo from './img/logo.svg'
 import filter from './img/filter.png'
 import login from './img/login.png'
 import user from  './img/user.png'
 
+function togglePanel() {
+   var panel = document.getElementById('login');
+   if (panel.style.display === 'flex') {
+     panel.style.display = 'none'; // Якщо панель відображена, ховаємо її
+   } else {
+     panel.style.display = 'flex'; // Якщо панель прихована, показуємо її
+   }
+ }
 
 function Header(){
    return(   
@@ -16,13 +25,13 @@ function Header(){
             <button type="submit" className='submit'>Знайти</button>
             </div>
          </div>
-         <a href=""className="login_button">
+         <a onClick={togglePanel}  className="login_button">
             <img src={login} alt="login" />
             <span>Увійти</span>
          </a>
          <button type="button" className='add_ad_but'>Додати оголошення</button>
 
-         <div className="login">
+         <div id='login' className="login">
             <img src={user} alt="user" width={37} height={37} />
             <h1>Вхід до акаунту</h1>
             <h6>Щоб слідкувати за замовленнями та <br/> отримувати індивідуалізовані рекомендації</h6>
