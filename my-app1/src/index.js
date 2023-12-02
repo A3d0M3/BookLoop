@@ -4,14 +4,12 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import Header from './components/Header/header';
 import Main from './components/Main/mian';
-import Login from './components/Login/login';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Header />
     <Main/>
-    <Login/>
   </React.StrictMode>
 );
 
