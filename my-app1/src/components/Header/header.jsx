@@ -41,7 +41,7 @@ function Header(){
                <label htmlFor="">Пароль</label>
                <input type="password" required='required' minLength={8} maxLength={40} placeholder='Введіть пароль'/>
                <a href="" className='forgotpass alogin'>Забули пароль?</a>
-               <input className='SignIn' type="submit" value="Увійти" />
+               <NavLink to='/second_home'><input className='SignIn' type="submit" value="Увійти" /></NavLink>
             </form>
             <div className='no_acc'>
                <span>Немає акаунту?</span>

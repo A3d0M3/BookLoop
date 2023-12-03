@@ -1,5 +1,6 @@
 import './reg.css'
 import main_img from '../Registration/img/dog.png'
+import { NavLink } from "react-router-dom";
 
 function Registration(){
     return(
@@ -18,7 +19,7 @@ function Registration(){
                     <input required='required' className='second_column_input' type='text' placeholder='Settlement'/>
                     <input required='required' className='first_column_input' type='password' placeholder='Password' minLength={8} maxLength={40}/>
                     <input required='required' className='second_column_input' type='password' placeholder='Repeat password' minLength={8} maxLength={40}/>
-                    <input className='reg_button' type='submit' value='Register account' />
+                    <NavLink to='/second_home'><input className='reg_button' type='submit' value='Register account' /></NavLink>
                 </form>
             </div>
         </div>
