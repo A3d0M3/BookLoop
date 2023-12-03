@@ -70,8 +70,9 @@
    position: absolute;
    width: 286px;
    height: 950px;
-   margin-left: 1195px;
-   margin-top: 765px;
+   top: 0;
+   right: 0;
+   bottom: 0;
    flex-direction: column;
    padding: 20px 0 0 7px;
  }
@@ -99,7 +100,6 @@
    height: 7px;
    background: rgba(139, 69, 19, 0.30);
    border: none;
-   margin-bottom: 79px;
    margin-left: -7px;
  }
 
@@ -118,5 +118,47 @@
    color: #000;
  }
 
+ .functions{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   height: 106px;
+   margin-bottom: 164px;
+   margin-top: 79px;
+ }
 
- 
+.functions_img{
+   margin-bottom: -14px;
+}
+
+.settings, .exit{
+   margin: 13px 0 13px 0;
+}
+
+.settings_img, .exit_img{
+   margin-bottom: -14px;
+}
+
+.profile_footer{
+   display: flex;
+   flex-direction: column;
+   padding: 27px 0 0 15px;
+   justify-content: space-between;
+   height: 50px;
+}
+
+.profile_footer span{
+   color: #000;
+   font-family: Inter;
+   font-size: 14px;
+   font-style: normal;
+   font-weight: 300;
+}
+
+.profile_footer a{
+   color: #000;
+   font-family: Inter;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 600;
+}
