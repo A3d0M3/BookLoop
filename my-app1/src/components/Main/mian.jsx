@@ -43,6 +43,30 @@ const Slider = () => {
    );
  };
 
+ function toggle1Panel() {
+   var panel1 = document.getElementById('genre_div');
+   var panel2 = document.getElementById('author_div');
+   if (panel1.style.display === 'flex') {
+     panel1.style.display = 'none';
+     panel2.style.display = 'none';
+   } else {
+     panel1.style.display = 'flex';
+     panel2.style.display = 'none';
+   }
+ }
+
+ function toggle2Panel() {
+   var panel1 = document.getElementById('genre_div');
+   var panel2 = document.getElementById('author_div');
+   if (panel2.style.display === 'flex') {
+     panel2.style.display = 'none';
+     panel1.style.display = 'none';
+   } else {
+     panel2.style.display = 'flex';
+     panel1.style.display = 'none';
+   }
+ }
+
 function Main() {
    return (
       <div className='main'>
@@ -57,8 +81,39 @@ function Main() {
 
             <nav className='nav_items2'>
                <ul>
-                  <li><button className='but' type='button' href=""><img src={genre} alt="filter" /><span className='text2'>Жанри</span></button></li>
-                  <li><button className='but' type='button' href=""><img src={author} alt="book" /><span className='text2'>Автори</span></button></li>
+                  <li><div onClick={toggle1Panel} className='but1' href=""><img src={genre} alt="filter" /><span className='text2'>Жанри</span>
+                  
+                     <div className='genre_div' id='genre_div'>
+                        <ul>
+                           <li className='diff_li'>Роман</li>
+                           <li className='diff_li'>Дитячі казки</li>
+                           <li className='diff_li'>Наукова фантастика</li>
+                           <li className='diff_li'>Детектив та трилер</li>
+                           <li className='diff_li'>Жахи</li>
+                           <li className='diff_li'>Історична література</li>
+                        </ul>
+
+                     </div>
+                  
+                  </div></li>
+                  <li><div onClick={toggle2Panel} className='but2' href=""><img src={author} alt="book" /><span className='text2'>Автори</span>
+                  
+                  <div className='author_div' id='author_div'>
+                        <ul>
+                           <li className='diff_li'>Дж. К. Роулінг</li>
+                           <li className='diff_li'>Ліна Костенко</li>
+                           <li className='diff_li'>Андрій Кокотюха</li>
+                           <li className='diff_li'>Джоан Роулінг</li>
+                           <li className='diff_li'>Пауло Коельйо</li>
+                           <li className='diff_li'>Іван Нечуй-Левицький</li>
+                           <li className='diff_li'>Ден Браун</li>
+                           <li className='diff_li'>Стефані Майер</li>
+                           <li className='diff_li'>Дж. Р. Р. Толкін</li>
+                        </ul>
+
+                     </div>
+                  
+                  </div></li>
                </ul>
             </nav>
 
