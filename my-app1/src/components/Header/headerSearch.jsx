@@ -18,21 +18,20 @@ function toggleProfilePanel() {
    }
  }
 
-function HeaderMain(){
+function HeaderSearch(){
    return(   
       <div className='header'>
          <a href='/second_home'><img  className='logo' src={logo} alt="logo" /></a>
          <div className="search">
             <a href="#" className="filter"><img src={filter} alt="filter" width={37} height={37}/></a>
             <div className='input'>
-            <input type="text" className="text_input" placeholder="Знати свою книгу" />
-            <NavLink to="/search" ><button type="submit" className='submit'>Знайти</button></NavLink>
+            <input type="text" className="text_input" placeholder="Знайти свою книгу" value='червона шапочка' />
+            <button type="submit" className='submit'>Знайти</button>
             </div>
          </div>
          <a onClick={toggleProfilePanel}  className="profile_button">
             <img src={profile1} alt="avatar" width={49} height={49} />
          </a>
-         <button type="button" className='add_ad_but'>Додати оголошення</button>
 
          <div class='profile_pannel' id='profile_pannel'>
             <img onClick={toggleProfilePanel} src={profile_back} alt='button back' width={32} height={32}/>
@@ -61,4 +60,4 @@ function HeaderMain(){
    );
 }
 
-export default HeaderMain
+export default HeaderSearch

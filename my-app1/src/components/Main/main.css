@@ -341,11 +341,13 @@ li img{
 .but1:hover{
    width: 142px;
    border-radius: 15px;
-   background: rgba(139, 69, 19, 0.19);   
+   background: rgba(139, 69, 19, 0.19); 
+   cursor: pointer;  
 }
 
 .but2:hover{
    width: 142px;
    border-radius: 15px;
-   background: rgba(139, 69, 19, 0.19);   
+   background: rgba(139, 69, 19, 0.19); 
+   cursor: pointer;   
 }

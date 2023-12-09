@@ -22,7 +22,7 @@ function Header(){
             <a href="#" className="filter"><img src={filter} alt="filter" width={37} height={37}/></a>
             <div className='input'>
             <input type="text" className="text_input" placeholder="Знати свою книгу" />
-            <button type="submit" className='submit'>Знайти</button>
+            <NavLink to="/search" ><button type="submit" className='submit'>Знайти</button></NavLink>
             </div>
          </div>
          <a onClick={togglePanel}  className="login_button">

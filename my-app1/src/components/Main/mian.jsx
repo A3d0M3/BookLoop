@@ -85,12 +85,11 @@ function Main() {
                   
                      <div className='genre_div' id='genre_div'>
                         <ul>
-                           <li className='diff_li'>Роман</li>
-                           <li className='diff_li'>Дитячі казки</li>
-                           <li className='diff_li'>Наукова фантастика</li>
-                           <li className='diff_li'>Детектив та трилер</li>
-                           <li className='diff_li'>Жахи</li>
-                           <li className='diff_li'>Історична література</li>
+                           <li href='/notReadyPage' className='diff_li'>Роман</li>
+                           <li href='/notReadyPage' className='diff_li'>Дитячі казки</li>
+                           <li href='/notReadyPage' className='diff_li'>Детектив та трилер</li>
+                           <li href='/notReadyPage' className='diff_li'>Жахи</li>
+                           <li href='/notReadyPage' className='diff_li'>Історична література</li>
                         </ul>
 
                      </div>
@@ -100,15 +99,15 @@ function Main() {
                   
                   <div className='author_div' id='author_div'>
                         <ul>
-                           <li className='diff_li'>Дж. К. Роулінг</li>
-                           <li className='diff_li'>Ліна Костенко</li>
-                           <li className='diff_li'>Андрій Кокотюха</li>
-                           <li className='diff_li'>Джоан Роулінг</li>
-                           <li className='diff_li'>Пауло Коельйо</li>
-                           <li className='diff_li'>Іван Нечуй-Левицький</li>
-                           <li className='diff_li'>Ден Браун</li>
-                           <li className='diff_li'>Стефані Майер</li>
-                           <li className='diff_li'>Дж. Р. Р. Толкін</li>
+                           <li href='/notReadyPage' className='diff_li'>Дж. К. Роулінг</li>
+                           <li href='/notReadyPage' className='diff_li'>Ліна Костенко</li>
+                           <li href='/notReadyPage' className='diff_li'>Андрій Кокотюха</li>
+                           <li href='/notReadyPage' className='diff_li'>Джоан Роулінг</li>
+                           <li href='/notReadyPage' className='diff_li'>Пауло Коельйо</li>
+                           <li href='/notReadyPage' className='diff_li'>Іван Нечуй-Левицький</li>
+                           <li href='/notReadyPage' className='diff_li'>Ден Браун</li>
+                           <li href='/notReadyPage' className='diff_li'>Стефані Майер</li>
+                           <li href='/notReadyPage' className='diff_li'>Дж. Р. Р. Толкін</li>
                         </ul>
 
                      </div>
