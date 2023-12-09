@@ -1,0 +1,40 @@
+footer{
+    margin-top: 30px;
+}
+
+hr{
+    opacity: 0.19;
+    background: #8B4513;
+    height: 8px;
+    border: none;
+}
+
+.footer_box{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    justify-content: center;
+}
+
+.footer_box img{
+    margin-top: 10px;
+}
+
+p{
+    margin-top: -20px;
+    margin-left: 1100px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a img{
+    margin-bottom: -7px;
+}
+
+a span{
+    font-size: 16px;
+    margin-left: 7px;
+}
