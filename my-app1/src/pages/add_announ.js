@@ -1,5 +1,5 @@
 import Announ from "../components/Announcement/announ";
-import Header from '../components/Header/headerSearch'
+import Header from '../components/Header/headerMain'
 import Footer from '../components/Footer/footer'
 
 function Announcement(){
