@@ -1,0 +1,126 @@
+.book_container{
+    display: flex;
+    gap: 51px;
+}
+
+.book_photos{
+    display: flex;
+    margin-left: 77px;
+    width: 280px;
+}
+
+.but_like{
+    width: 59px;
+    height: 43px;
+    border-radius: 15px;
+    background: rgba(139, 69, 19, 0.19);
+    border: none;
+    margin-left: 45px;
+}
+
+.but_choice{
+    width: 59px;
+    height: 43px;
+    border-radius: 15px;
+    background: rgba(139, 69, 19, 0.19);
+    border: none;
+    margin-left: 35px;
+}
+
+.box_of_photo{
+    display: flex;
+    align-items: center;
+    width: 278px;
+    height: 347px;
+    background-color: #D9D9D9;
+    margin-top: 19px;
+}
+
+.box_of_photo img{
+    margin-left: 29px;
+}
+
+span[for='main_title']{
+    color: #000;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.tags_of_book{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.tags_of_book span{
+    margin-top: 10px ;
+    color: #000;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.tags_of_book label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 142px;
+    height: 43px;
+    border-radius: 15px;
+    background: rgba(139, 69, 19, 0.19);
+}
+
+.box_categories{
+    margin-top: 7px;
+}
+
+.for_box_categories{
+    color: #000;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.box_categories label{
+    width: 142px;
+    height: 34px;
+    border-radius: 15px;
+    border: 2px solid #8B4513;
+    background: #FFF;
+    font-size: 18px;
+    padding: 4px 4px 4px 4px;
+}
+
+.text_about{
+    width: 611px;
+    background-color: #FFF;
+    padding: 19px 85px 35px 20px;
+    color: #8B4513;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.swap_img{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin-top: 19px;
+}
+
+.swap_img button{
+    width: 59px;
+    height: 85px;
+    background: rgba(139, 69, 19, 0.19);
+    border-radius: 15px;
+    border: none;
+}

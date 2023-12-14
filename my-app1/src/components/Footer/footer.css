@@ -20,21 +20,22 @@ hr{
     margin-top: 10px;
 }
 
-p{
+.footer_p{
     margin-top: -20px;
     margin-left: 1100px;
 }
 
-a{
+.footer_a{
     text-decoration: none;
     color: black;
+    width: 250px;
 }
 
-a img{
+.footer_a img{
     margin-bottom: -7px;
 }
 
-a span{
+.footer_a span{
     font-size: 16px;
     margin-left: 7px;
 }

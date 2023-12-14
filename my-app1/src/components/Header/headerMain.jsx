@@ -1,4 +1,4 @@
-import './headerMain.css'
+import './header.css'
 import { NavLink } from "react-router-dom";
 import logo from './img/logo.svg'
 import filter from './img/filter.png'
@@ -32,7 +32,7 @@ function HeaderMain(){
          <a onClick={toggleProfilePanel}  className="profile_button">
             <img src={profile1} alt="avatar" width={49} height={49} />
          </a>
-         <button type="button" className='add_ad_but'>Додати оголошення</button>
+         <NavLink to='/announcement' ><button type="button" className='add_ad_but'>Додати оголошення</button> </NavLink>
 
          <div class='profile_pannel' id='profile_pannel'>
             <img onClick={toggleProfilePanel} src={profile_back} alt='button back' width={32} height={32}/>

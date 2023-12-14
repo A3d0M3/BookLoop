@@ -29,7 +29,7 @@ function Header(){
             <img src={login} alt="login" />
             <span>Увійти</span>
          </a>
-         <button type="button" className='add_ad_but'>Додати оголошення</button>
+         <NavLink to='/announcement' ><button type="button" className='add_ad_but'>Додати оголошення</button> </NavLink>
 
          <div id='login' className="login">
             <img src={user} alt="user" width={37} height={37} />
