@@ -61,7 +61,7 @@ function Announcement(){
                 </div>
             </div>
             
-            <div className='description'>
+            <div className='description2'>
                 <h4 className='title'>Опис*</h4>
                 <textarea required='required' className='enter_descr' id='myTextarea' placeholder='Подумайте ,що хотіли б ви дізнатись про книгу, можливо щось розповісти. І додайте це в опис' minLength={40} maxLength={9000}   />
                 <p className='undertitle'>Опис повинен бути не коротшим за 40 знаків</p>
