@@ -29,7 +29,6 @@
 .nazva{
     width: 892px;
     height: 43px;
-    border-radius: 15px;
     background: rgba(139, 69, 19, 0.19);
     border: none;
     color: #000;
@@ -69,7 +68,6 @@ span[for='nazva']{
 .genre_select{
     width: 208px;
     height: 43px;
-    border-radius: 15px;
     background: rgba(139, 69, 19, 0.19);
     border: none;
     color: #000;
@@ -78,7 +76,6 @@ span[for='nazva']{
 .author_select{
     width: 208px;
     height: 43px;
-    border-radius: 15px;
     background: rgba(139, 69, 19, 0.19);
     border: none;
     color: #000;
@@ -175,7 +172,6 @@ span[for='genre_select']{
 .city_enter{
     width: 636px;
     height: 43px;
-    border-radius: 15px;
     background: rgba(139, 69, 19, 0.19);
     border: none;
     color: #000;
@@ -202,7 +198,6 @@ span[for='genre_select']{
 .contacts_form input{
     width: 636px;
     height: 43px;
-    border-radius: 15px;
     background: rgba(139, 69, 19, 0.19);
     border: none;
     margin-left: 16px;
@@ -221,7 +216,6 @@ span[for='genre_select']{
 .publish_button{
     width: 221px;
     height: 43px;
-    border-radius: 15px;
     background: #8B4513;
     border: none;
     color: #FFF;

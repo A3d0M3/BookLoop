@@ -13,7 +13,6 @@
 .filterCapacity{
     width: 142px;
     height: 43px;
-    border-radius: 15px;
     background: rgba(139, 69, 19, 0.19);
     text-align: center;
     box-sizing: border-box;
@@ -51,7 +50,6 @@
 .tags label{
     width: 160px;
     height: 40px;
-    border-radius: 15px;
     border: 2px solid #8B4513;
     background: #FFF;
     font-size: 18px;

@@ -31,7 +31,6 @@
    background-position: 6px;
    width: 661px;
    height: 43px;
-   border-radius: 15px;
    border: none;
    color: #000;
    font-family: Inter;
@@ -45,7 +44,6 @@
 .submit {
    width: 142px;
    height: 43px;
-   border-radius: 15px;
    border: none;
    position: absolute;
    right: 0px;
@@ -80,7 +78,6 @@
 .add_ad_but{
    width: 240px;
    height: 43px;
-   border-radius: 15px;
    background: #8B4513;
    border: none;
    color: #FFF;
@@ -140,8 +137,7 @@
    margin-bottom: 5px;
 }
 
-.form input {
-   border-radius: 15px;
+.form_input {
    background: #D9D9D9;
    width: 333px;
    height: 49px;
@@ -170,9 +166,12 @@
 .SignIn{
    background-color: #BC8F8F;
    color: #FFF;
+   width: 347px;
+   height: 49px;
    font-family: Inter;
    font-size: 12px;
    font-weight: 600;
+   border: none;
 }
 
 input[type="submit" i]:hover {
@@ -182,6 +181,8 @@ input[type="submit" i]:hover {
 
 .no_acc span{
    text-decoration: none;
+   width: 333px;
+   height: 49px;
    color: #000;
    font-family: Inter;
    font-size: 12px;

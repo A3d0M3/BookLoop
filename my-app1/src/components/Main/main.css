@@ -304,7 +304,6 @@ li img{
 .genre_div{
    width: 226px;
    height: 236px;
-   border-radius: 15px;
    border: 3px solid rgba(139, 69, 19, 0.50);
    background: #FFF;
    position: absolute;
@@ -318,7 +317,6 @@ li img{
 .author_div{
    width: 235px;
    height: 310px;
-   border-radius: 15px;
    border: 3px solid rgba(139, 69, 19, 0.50);
    background: #FFF;
    position: absolute;

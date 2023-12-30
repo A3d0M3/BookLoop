@@ -37,9 +37,9 @@ function Header(){
             <h6>Щоб слідкувати за замовленнями та <br/> отримувати індивідуалізовані рекомендації</h6>
             <form className="form"action="">
                <label htmlFor="">Номер телефону або електронна пошта</label>
-               <input type="email" required='required' placeholder='Введіть номер або email' />
+               <input className='form_input' type="email" required='required' placeholder='Введіть номер або email' />
                <label htmlFor="">Пароль</label>
-               <input type="password" required='required' minLength={8} maxLength={40} placeholder='Введіть пароль'/>
+               <input className='form_input' type="password" required='required' minLength={8} maxLength={40} placeholder='Введіть пароль'/>
                <a href="" className='forgotpass alogin'>Забули пароль?</a>
                <NavLink to='/second_home'><input className='SignIn' type="submit" value="Увійти" /></NavLink>
             </form>

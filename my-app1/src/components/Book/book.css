@@ -12,7 +12,6 @@
 .but_like{
     width: 59px;
     height: 43px;
-    border-radius: 15px;
     background: rgba(139, 69, 19, 0.19);
     border: none;
     margin-left: 45px;
@@ -21,7 +20,6 @@
 .but_choice{
     width: 59px;
     height: 43px;
-    border-radius: 15px;
     background: rgba(139, 69, 19, 0.19);
     border: none;
     margin-left: 35px;
@@ -71,7 +69,6 @@ span[for='main_title']{
     align-items: center;
     width: 142px;
     height: 43px;
-    border-radius: 15px;
     background: rgba(139, 69, 19, 0.19);
 }
 
@@ -91,7 +88,6 @@ span[for='main_title']{
 .box_categories label{
     width: 142px;
     height: 34px;
-    border-radius: 15px;
     border: 2px solid #8B4513;
     background: #FFF;
     font-size: 18px;
@@ -121,6 +117,5 @@ span[for='main_title']{
     width: 59px;
     height: 85px;
     background: rgba(139, 69, 19, 0.19);
-    border-radius: 15px;
     border: none;
 }
