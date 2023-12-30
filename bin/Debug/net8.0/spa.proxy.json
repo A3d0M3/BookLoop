@@ -1,0 +1,10 @@
+{
+"SpaProxyServer": {
+"ServerUrl": "https://localhost:44434",
+"RedirectUrl": "",
+"LaunchCommand": "npm start",
+"WorkingDirectory": "C:\\Users\\vital\\source\\repos\\BookLoopV0.1\\ClientApp\\",
+"MaxTimeoutInSeconds": "120",
+"KeepRunning": "false"
+}
+}
